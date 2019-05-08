@@ -1,5 +1,5 @@
 <template>
-   <div class="my-container">
+   <div class="container">
        <div class="box">
            <div>平台持有USDT</div>
            <div>18,035,20</div>
@@ -40,10 +40,12 @@ export default {
 }
 </script>
 <style lang="less">
-    .my-container{
+    .container{
         height: 100%;
-        padding-top: 24px;
+        padding: 24px;
+        box-sizing: border-box;
         background-color: #F0F2F5;
+        
         .box {
             width: 276px;
             height: 128px;
@@ -57,6 +59,7 @@ export default {
             //     margin-right: 0;
             // }
            div {
+
                &:nth-child(1){
                    height: 20px;
                    font-size: 14px;
@@ -67,9 +70,9 @@ export default {
                &:nth-child(2){
                    margin-top: 1px;
                    height: 40px;
-                   line-height: 39px;
                    font-size: 32px;
                    color: #333333;
+                   margin-top: 4px;
                }
            }
         }

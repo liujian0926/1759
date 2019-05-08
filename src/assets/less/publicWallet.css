@@ -1,5 +1,12 @@
+html,
+body {
+  line-height: 100%;
+  margin: 0;
+  background-color: #F0F2F5;
+}
 .my-container {
   height: 100%;
+  padding: 0;
 }
 .my-container .el-header {
   background-color: #fff;
@@ -67,7 +74,27 @@
   background-color: #253444;
 }
 .my-container #main {
-  padding: 0 24px;
+  padding: 0;
   margin-top: 1px;
-  background-color: #F0F2F5;
+  background-color: #fff;
+}
+.my-container .el-form-item__label {
+  line-height: 36px;
+  font-size: 14px;
+}
+.my-container .el-form-item__content {
+  height: 36px;
+}
+.my-container .el-form-item__content #rmb {
+  font-size: 12px;
+  line-height: 17px;
+  color: #999999;
+  padding: 8px 0;
+}
+.my-container .el-form-item__content .el-input {
+  height: 36px;
+}
+.my-container .el-form-item__content .el-input .el-input__inner {
+  height: 36px;
+  line-height: 36px;
 }

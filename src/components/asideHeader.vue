@@ -2,8 +2,8 @@
     <el-container class="my-container">
       <el-aside width="210px">
         <div class="title">钱包管理</div>
-        <el-menu class="el-menu" router default-active="number">
-          <el-menu-item index="number">
+        <el-menu class="el-menu" router default-active="data">
+          <el-menu-item index="data">
             <i class="el-icon-document"></i>
             <span slot="title">平台钱包数据</span>
           </el-menu-item>
@@ -11,39 +11,39 @@
             <i class="el-icon-document"></i>
             <span slot="title">平台USDT收入支出</span>
           </el-menu-item>
-          <el-menu-item index="2">
+          <el-menu-item index="platform_cash">
             <i class="el-icon-document"></i>
             <span slot="title">平台USDT提现记录</span>
           </el-menu-item>
-          <el-menu-item index="2">
+          <el-menu-item index="platform_earnings">
             <i class="el-icon-document"></i>
             <span slot="title">平台积分收益记录</span>
           </el-menu-item>
-          <el-menu-item index="2">
+          <el-menu-item index="project_usdt">
             <i class="el-icon-document"></i>
             <span slot="title">项目方USDT充提记录</span>
           </el-menu-item>
-          <el-menu-item index="2">
+          <el-menu-item index="project_exchange">
             <i class="el-icon-document"></i>
             <span slot="title">项目方积分兑换记录</span>
           </el-menu-item>
-          <el-menu-item index="2">
+          <el-menu-item index="project_recharge">
             <i class="el-icon-document"></i>
             <span slot="title">项目方积分充提记录</span>
           </el-menu-item>
-          <el-menu-item index="2">
+          <el-menu-item index="B_usdt">
             <i class="el-icon-document"></i>
             <span slot="title">B端USDT充提记录</span>
           </el-menu-item>
-          <el-menu-item index="2">
+          <el-menu-item index="B_exchange">
             <i class="el-icon-document"></i>
             <span slot="title">B端积分兑换记录</span>
           </el-menu-item>
-          <el-menu-item index="2">
+          <el-menu-item index="B_deal">
             <i class="el-icon-document"></i>
             <span slot="title">B端积分买卖记录</span>
           </el-menu-item>
-          <el-menu-item index="2">
+          <el-menu-item index="platform_usdt">
             <i class="el-icon-document"></i>
             <span slot="title">平台USDT提现</span>
           </el-menu-item>

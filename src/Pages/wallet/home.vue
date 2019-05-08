@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <public-wallet/>
+    <aside-header/>
   </div>
   
 </template>

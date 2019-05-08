@@ -17,7 +17,7 @@
       <el-form-item label="密码" prop="password">
         <el-input v-model="loginForm.password" placeholder="请输入密码"></el-input>
       </el-form-item>
-      <el-button type="primary" class="login-btn" @click="submit('loginForm')">登陆</el-button>
+      <el-button type="primary" class="login-btn" @click="submit('loginForm')">登录</el-button>
     </el-form>
   </div>
 </template>
@@ -66,7 +66,7 @@ export default {
   }
 };
 </script>
-<style lang="less">
+<style lang="less" >
 .login {
   height: 100%;
   display: flex;

@@ -13,7 +13,7 @@
       </div>
       <div class="content">
        
-      <router-link :to="{path:'/wallet'}" class="text">
+      <router-link :to="{path:'/home'}" class="text">
         <img src="../assets/images/wallet.png" alt="">
          <span>平台钱包管理</span>
       </router-link>
@@ -28,7 +28,7 @@
 export default {};
 </script>
 
-<style lang="less">
+<style lang="less" >
   .container {
     // width: 1440px;
     // margin: 0 auto;
