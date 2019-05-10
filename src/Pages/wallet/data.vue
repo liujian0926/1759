@@ -41,7 +41,7 @@ export default {
 </script>
 <style lang="less">
     .container{
-        height: 100%;
+        height: 701px;
         padding:24px;
         box-sizing: border-box;
         background-color: #F0F2F5;

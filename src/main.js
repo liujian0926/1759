@@ -16,11 +16,8 @@ import asideHeader from './components/asideHeader.vue';
 Vue.component('aside-header',asideHeader)
 import bread from './components/bread.vue';
 Vue.component('my-bread',bread)
-
-
-
 new Vue({
   el: '#app',
   render: h => h(App),
-  router: router
+  router:router
 })

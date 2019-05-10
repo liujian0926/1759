@@ -30,7 +30,6 @@ import Bexchange from './Pages/wallet/B_exchange.vue';
 import Bdeal from './Pages/wallet/B_deal.vue';
 // 平台usdt组件
 import platformUsdt from './Pages/wallet/platform_usdt.vue';
-
 const routers = [
   {path:'/', component: index},
   {path: '/login', component: login },
@@ -59,4 +58,4 @@ const router = new Router({
   routers
 })
 
-export default router
+export default router;

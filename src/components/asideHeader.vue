@@ -3,7 +3,7 @@
       <el-aside width="210px">
         <div class="title">钱包管理</div>
         <el-menu class="el-menu" router default-active="data">
-          <el-menu-item index="data">
+          <el-menu-item index="home">
             <!-- <i class="el-icon-document"></i> -->
             <img src="../assets/images/blue.png" alt="">
             <span slot="title">平台钱包数据</span>
