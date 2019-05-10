@@ -1,6 +1,6 @@
  
 <template>
-  <div class="login">
+  <div class="container">
     <img src="../assets/images/logo.png" alt>
     <div class="title">盾付宝运营后台</div>
     <el-form
@@ -66,8 +66,8 @@ export default {
   }
 };
 </script>
-<style lang="less" >
-.login {
+<style lang="less" scoped>
+.container {
   height: 100%;
   display: flex;
   justify-content: center;

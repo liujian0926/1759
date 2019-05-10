@@ -39,7 +39,7 @@ export default {
         // inputPattern: /[\w!#$%&'*+/=?^_`{|}~-]+(?:\.[\w!#$%&'*+/=?^_`{|}~-]+)*@(?:[\w](?:[\w-]*[\w])?\.)+[\w](?:[\w-]*[\w])?/,
         inputPattern: /^[a-zA-Z0-9]{4,10}$/,
         inputErrorMessage: "密码格式不正确",
-        inputPlaceholder:'请输入您的资金密码'
+        inputPlaceholder: "请输入您的资金密码"
       })
         .then(({ value }) => {
           this.$message({
@@ -63,7 +63,7 @@ export default {
   height: 100%;
   padding: 53px 0 0 36px;
   box-sizing: border-box;
-
+  background-color: #fff;
   .el-button--primary {
     width: 80px !important;
     height: 32px;

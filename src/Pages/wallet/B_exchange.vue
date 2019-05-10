@@ -24,9 +24,9 @@
       </el-form-item>
 
       <el-form-item>
-          <el-input v-model="input" placeholder="项目方ID/名称"></el-input>
+        <el-input v-model="input" placeholder="项目方ID/名称"></el-input>
       </el-form-item>
-      
+
       <!--类型选择 -->
       <el-form-item>
         <el-select v-model="value" placeholder="USDT兑换积" style="height: 40px;">
@@ -39,7 +39,6 @@
         </el-select>
       </el-form-item>
 
-      
       <el-form-item>
         <el-button type="primary" @click="onSubmit">查询</el-button>
       </el-form-item>
@@ -48,27 +47,27 @@
       </el-form-item>
     </el-form>
     <!-- 表格-->
-    <el-table :data="tableData" border style="width: 100% ;height:545px;">
-      <el-table-column prop="date" label="日期"></el-table-column>
-      <el-table-column prop="zd" label="终端类型"></el-table-column>
-      <el-table-column prop="id" label="ID"></el-table-column>
-      <el-table-column prop="type" label="类型"></el-table-column>
-      <el-table-column prop="usdt" label="USDT"></el-table-column>
-      <el-table-column prop="num" label="交易单号"></el-table-column>
+    <el-table :data="tableData" border style="width: 100% ;">
+      <el-table-column prop="date" label="日期" align="center"></el-table-column>
+      <el-table-column prop="zd" label="终端类型" align="center"></el-table-column>
+      <el-table-column prop="id" label="ID" align="center"></el-table-column>
+      <el-table-column prop="type" label="类型" align="center"></el-table-column>
+      <el-table-column prop="usdt" label="USDT" align="center"></el-table-column>
+      <el-table-column prop="num" label="交易单号" align="center"></el-table-column>
     </el-table>
     <!--分页 -->
     <div class="page">
       <div class="pagination">
         <el-pagination
-        background
-        @size-change="handleSizeChange"
-        @current-change="handleCurrentChange"
-        :current-page="currentPage4"
-        :page-sizes="[10, 20, 30, 40]"
-        :page-size="100"
-        layout="total, sizes, prev, pager, next, jumper"
-        :total="100"
-      ></el-pagination>
+          background
+          @size-change="handleSizeChange"
+          @current-change="handleCurrentChange"
+          :current-page="currentPage4"
+          :page-sizes="[10, 20, 30, 40]"
+          :page-size="100"
+          layout="total, sizes, prev, pager, next, jumper"
+          :total="100"
+        ></el-pagination>
       </div>
     </div>
   </div>
@@ -221,8 +220,8 @@ export default {
       }
       &:nth-child(3) {
         width: 170px;
-        ::placeholder{
-            color: #333;
+        ::placeholder {
+          color: #333;
         }
       }
       .el-col {
@@ -234,12 +233,12 @@ export default {
       }
     }
     .el-button--primary {
-      width: 80px!important;
+      width: 80px !important;
       height: 32px;
       padding: 0;
     }
-    .el-button--default{
-      width: 80px!important;
+    .el-button--default {
+      width: 80px !important;
       height: 32px;
       padding: 0;
     }

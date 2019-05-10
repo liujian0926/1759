@@ -48,7 +48,7 @@
         </el-form-item>
       </el-form>
       <!-- 表格-->
-      <el-table :data="tableData" border style="width: 100% ;height:545px;">
+      <el-table :data="tableData" border style="width: 100% ;">
         <el-table-column prop="date" label="日期"></el-table-column>
         <el-table-column prop="zd" label="终端类型"></el-table-column>
         <el-table-column prop="id" label="ID"></el-table-column>
@@ -73,7 +73,7 @@
       </div>
     </div>
     <!-- 没有数据的站位图片 -->
-    <img class="notdata" src="../../assets/images/notdata.png" alt>
+    <img class="notdata" src="../../assets/images/notdata.png">
   </div>
 </template>
 
@@ -205,6 +205,7 @@ export default {
 <style lang="less" scoped>
 .container {
   .notdata {
+    display:block;
     width: 200px;
     height: 200px;
     margin: 0 auto;

@@ -29,13 +29,16 @@ import Bexchange from './Pages/wallet/B_exchange.vue';
 // B端积分买卖组件
 import Bdeal from './Pages/wallet/B_deal.vue';
 // 平台usdt组件
-import platformUsdt from './Pages/wallet/platform_usdt.vue'
+import platformUsdt from './Pages/wallet/platform_usdt.vue';
+// 运营模块
+import runHome from './Pages/run/run_home.vue'
 
 
 
 const routes = [
   {path:'/', component: index},
   {path: '/login', component: login },
+  // 钱包模块
   {path: '/home', component: home,
   children:[
     {path:'/data',component:data},
@@ -51,8 +54,11 @@ const routes = [
     {path:'/platform_usdt',component:platformUsdt},
 
   ]
- },
+  },
+  // 运营模块
+  {path:'/run_home',component:runHome}
   
+
 ]
 
 

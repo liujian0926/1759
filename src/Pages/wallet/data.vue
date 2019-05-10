@@ -42,7 +42,7 @@ export default {
 <style lang="less">
     .container{
         height: 100%;
-        padding: 24px;
+        padding:24px;
         box-sizing: border-box;
         background-color: #F0F2F5;
         
